@@ -46,27 +46,26 @@ nav ul li a {
 nav ul li a:hover {
  text-decoration: underline;
 }
-.ImagenCentral {
-  background-color: #82c3a6;
+
+#Nombre {
+  width: 60%;
+}
+
+section {
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
 }
 img {
   width: 80%;
   margin: 2em 10%;
 }
 
-#Nombre {
-  width: 60%;
+section article {
+width: 33%;
 }
-.ImagenSecundaria {
-  background-color: #d5c75f;
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 10px;
-}
-.Paisajes, .Retratos {
-  width: 50%;
-  text-align: center;
-}
+
 article img{
   border: solid 1px black;
 }
@@ -106,28 +105,14 @@ footer img {
 a {
   text-decoration: none;
 }
-
-.Paisajes img {
-  transition-property: transform, box-shadow, border;
-  transition-duration: 2s, 2s, 2s;
-
+#paisaje1 {
+ filter: blur(10px);
 }
-.Paisajes img:hover {
-  transform: rotate(10deg);
-  box-shadow: 2px 2px 2px #82c3a6;
-  border: solid 2px #82c3a6;
-
+#paisaje2, #paisaje4, #paisaje6{
+  filter: grayscale(100%);
 }
-
-.Retratos img {
-  transition-property: transform, box-shadow, border;
-  transition-duration: 2s, 2s, 2s;
-
-}
-.Retratos img:hover {
-  transform: translateX(20px) translateY(-5px);
-  box-shadow: 2px 2px 2px #82c3a6;
-  border: solid 2px #82c3a6;
+#paisaje3{
+  filter: sepia(90%);
 }
 }
 
@@ -164,28 +149,22 @@ nav ul li a {
 nav ul li a:hover {
    text-decoration: underline;
   }
-.ImagenCentral {
-    background-color: #82c3a6;
+section {
+    background-color: #d5c75f;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
   }
-
+#Nombre {
+    width: 100%;
+    text-align: center;
+  }
 img {
   width: 80%;
   margin: 2em 10%;
 }
-#Nombre {
-  width: 100%;
-  text-align: center;
-}
-.ImagenSecundaria {
-  background-color: #d5c75f;
-  display: flex;
-  flex-flow: row wrap;
-  padding-bottom: 10px;
-}
-.Paisajes, .Retratos {
-  width: 100%;
-  text-align: center;
-}
+
+
 article img{
   border: solid 1px black;
 }
@@ -220,26 +199,13 @@ a {
   text-decoration: none;
 }
 
-.Paisajes img {
-  transition-property: transform, box-shadow, border;
-  transition-duration: 2s, 2s, 2s;
-
+#paisaje1 {
+ filter: blur(10px);
 }
-.Paisajes img:hover {
-  transform: rotate(10deg);
-  box-shadow: 2px 2px 2px #82c3a6;
-  border: solid 2px #82c3a6;
-
+#paisaje2, #paisaje4, #paisaje6{
+  filter: grayscale(100%);
 }
-
-.Retratos img {
-  transition-property: transform, box-shadow, border;
-  transition-duration: 2s, 2s, 2s;
-
-}
-.Retratos img:hover {
-  transform: translateX(20px) translateY(-5px);
-  box-shadow: 2px 2px 2px #82c3a6;
-  border: solid 2px #82c3a6;
+#paisaje3{
+  filter: sepia(90%);
 }
 }
