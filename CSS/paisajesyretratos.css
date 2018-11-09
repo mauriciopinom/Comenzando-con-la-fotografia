@@ -110,6 +110,20 @@ a {
 #paisaje3{
   filter: sepia(90%);
 }
+header {
+  animation: slidein 1s;
+}
+@-webkit-keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
 }
 
 @media screen and (max-width: 899px){
@@ -207,5 +221,19 @@ a {
 }
 #paisaje3{
   filter: sepia(90%);
+}
+header {
+  animation: slidein 1s;
+}
+@-webkit-keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
 }
 }

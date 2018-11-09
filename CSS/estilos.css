@@ -126,6 +126,20 @@ a {
   box-shadow: 2px 2px 2px #82c3a6;
   border: solid 2px #82c3a6;
 }
+header {
+  animation: slidein 1s;
+}
+@-webkit-keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
 }
 
 @media screen and (max-width: 899px){
@@ -239,5 +253,19 @@ a {
   transform: translateX(20px) translateY(-5px);
   box-shadow: 2px 2px 2px #82c3a6;
   border: solid 2px #82c3a6;
+}
+header {
+  animation: slidein 1s;
+}
+@-webkit-keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
 }
 }
